@@ -1,0 +1,30 @@
+.box-card {
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+}
+
+.titulo {
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+}
+
+.card {
+    margin-left: 50px;
+}
+
+@media screen and (max-width: 480px) {
+    .box-card {
+        flex-direction: column;
+    }
+
+    .card {
+        margin-bottom: 20px;
+    }
+
+    .titulo {
+        margin-left: 50px;
+    }
+
+}

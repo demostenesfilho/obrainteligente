@@ -7,6 +7,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css" />
     <title>Obra Inteligente</title>
 </head>
 <body>
@@ -49,7 +50,33 @@
           <span class="visually-hidden">Next</span>
         </button>
       </div>
+      <div class="titulo">
+        <h2>Garanta a satisfação dos clientes e qualidade dos serviços</h2>
+      </div>
+    <div class="box-card">
+      <div class="card" style="width: 18rem;">
+        <img src="image/imgcard1.png" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title"><strong>Intuitivo</strong><br />para colaboradores</h5>
+          <br />
+          <a href="#" class="btn btn-primary">Saiba mais</a>
+        </div>
+      </div>
 
+      <div class="card" style="width: 18rem;">
+        <img src="image/imgcard2.png" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title"><strong>Completo</strong><br />para gestores</h5>
+          <br />
+          <a href="#" class="btn btn-primary">Saiba mais</a>
+        </div>
+      </div>
+    </div>
+
+    <div>
+      <br>
+      <br>
+    </div>
 
 
 
