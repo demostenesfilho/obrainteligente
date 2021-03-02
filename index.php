@@ -18,7 +18,7 @@
             <ul class="navbar-nav me-auto mb-2 mb-lg-0">
             </ul>
             <div class="d-flex">
-                <button type="button" class="btn btn-primary nav-item">Entrar</button><p class="text-light">.</p>
+                <button type="button" class="btn btn-primary nav-item" data-bs-toggle="modal" data-bs-target="#exampleModal">Entrar</button><p class="text-light">.</p>
                 <button type="button" class="btn btn-primary">Cadastrar</button>
             </div>
           </div>
@@ -78,6 +78,33 @@
       <br>
     </div>
 
+    <!-- Modal -->
+<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Entrar na sua conta</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <div class="column">
+          <div class="col">
+            <span>E-mail:</span>
+            <input type="email" class="form-control" placeholder="Digite seu email aqui" aria-label="email">
+          </div>
+          <br />
+          <div class="col">
+            <span>Senha:</span>
+            <input type="password" class="form-control" placeholder="Digite sua senha aqui" aria-label="senha">
+          </div>
+        </div>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-primary">Acessar conta</button>
+      </div>
+    </div>
+  </div>
+</div>
 
 
 
